@@ -1,0 +1,14 @@
+
+h1{
+	  border: 5px dashed lightblue;
+	  font-family: "roboto", sans serif;
+	  text-transform: capitalize;
+	  color: #4CAF50;
+	  font-size: 35px
+}
+p{
+	color: caramel;
+font-style: oblique 10deg;
+font-size: 20px;
+color: voilet;
+}

@@ -1,0 +1,38 @@
+.product{
+
+	border: 1px solid #333;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	
+}
+
+.button-secondary{
+	        color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(66, 184, 221); 
+            display: inline-block;
+            border: 2px solid #008CB
+
+}
+
+.button-secondary:hover{
+	 background-color: white; 
+    color: black; 
+    
+}
+
+
+
+.imgg img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+      border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}

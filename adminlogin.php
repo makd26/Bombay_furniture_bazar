@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>first page </title>
+    </head>
+<body>
+    <link rel="stylesheet" type="text/css" href="firstpage.css">
+    <img src="logo.png" align="left">
+    <div class="login-page">
+
+        <div class="form">
+		<h3>Admin Login </h3>
+       <!-- <form class="register-form" method="POST" action="page1.php">
+                
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="Phone"><b>Phone No.</b></label>
+    <input type="text" placeholder="Enter 10 digit Phone No." name="phone" required>
+    
+               <button type="submit" class="signupbtn" name="register">Sign Up</button>                       
+
+                    <p class="message">Already Registered ?<a href="#">login </a></p>
+                    <br><p class="message"><a href="Terms.html">Terms and Conditions </a></p>
+            </form>   -->
+			
+            <form class="login-form" method="POST" action="adminLoginVerify.php">			
+    <label for="uname"><b>Admin Id</b></label>
+    <input type="text" placeholder="Enter Admin Id" name="name" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit" name="login">Login</button>                     
+
+               <!-- <p class="message">Not Registered ?<a href="#">register </a></p>  -->
+                    
+            </form>
+
+        </div>
+        
+    </div> 
+   
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script >
+    $('.message a').click(function(){
+    $('form').animate({height : "toggle",opacity : "toggle" },"slow");  
+    }); 
+
+</script>
+
+</body>
+</html>
